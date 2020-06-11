@@ -4,7 +4,7 @@
     {{funcName}} (params) {
             return this._format({
                 url: {{url}},
-                data: {{params}},
+                {{dataKey}}: {{params}},
                 method: '{{method}}'
             })
         }

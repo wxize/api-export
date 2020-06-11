@@ -1,13 +1,12 @@
 // 该类为工具生成的，不可修改
+// time - {{time}}
 
 class ApiManager {
-	constructor(baseUrl, httpProxy) {
-		this.baseUrl = baseUrl
+	constructor(httpProxy) {
 		this.httpProxy = httpProxy
 	}
 
 	_format(route) {
-		route.url = this.baseUrl + route.url
 		return this.httpProxy(route)
 	}
 
