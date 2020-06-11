@@ -1,0 +1,10 @@
+/**
+     * {{title}}
+     */
+    {{funcName}} (params) {
+            return this._format({
+                url: {{url}},
+                data: {{params}},
+                method: '{{method}}'
+            })
+        }

@@ -1,0 +1,12 @@
+{
+  "name": "@util/api-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "author": "wangxiaowei",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "files": ["conf", "example", "lib"]
+}

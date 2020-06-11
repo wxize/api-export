@@ -1,0 +1,17 @@
+// 该类为工具生成的，不可修改
+
+class ApiManager {
+	constructor(baseUrl, httpProxy) {
+		this.baseUrl = baseUrl
+		this.httpProxy = httpProxy
+	}
+
+	_format(route) {
+		route.url = this.baseUrl + route.url
+		return this.httpProxy(route)
+	}
+
+	// ~~ 
+}
+
+export default ApiManager
