@@ -1,6 +1,6 @@
 
 // 
-const Api = require('../out_files/微信端系统通知管理/ApiManager')
+const Api = require('../out_files/微信端系统通知管理/api')
 
 const axios = require('axios')
 

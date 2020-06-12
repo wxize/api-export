@@ -1,6 +1,6 @@
 {
   "name": "@util/api-export",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "lib/app.js",
   "author": "wangxiaowei",
@@ -8,5 +8,9 @@
   "dependencies": {
     "request": "^2.88.2"
   },
-  "files": ["conf", "example", "lib"]
+  "files": [
+    "conf",
+    "example",
+    "lib"
+  ]
 }
